@@ -36,3 +36,8 @@ npm-debug.log*
 
 # misc
 *.tgz
+
+#extra
+/allure-shard-1
+/blob-shard-1
+/reports-shard-1
