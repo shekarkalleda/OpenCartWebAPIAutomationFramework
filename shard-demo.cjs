@@ -35,6 +35,7 @@ for (let i = 1; i <= SHARDS; i++) {
   moveIfExists('reporting-labs', `rl-shard-${i}`);
 }
 
+
 console.log('\n===== Merge: Playwright HTML =====');
 fs.mkdirSync('all-blob-reports', { recursive: true });
 for (let i = 1; i <= SHARDS; i++) {
